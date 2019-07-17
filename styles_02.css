@@ -1,6 +1,8 @@
-body {
+body, html {
     font-family: verdana;
-    margin: 0px;
+    margin: 0vw;
+    padding: 0;
+    width: 100vw;
 }
 
 
@@ -27,13 +29,14 @@ body {
     order: 2
   }
   li {
-    margin: 0 20px;
+    margin: 0;
     transition: 0.6s ease;
   }
   li:hover {
       font-size: 1.2em;
       transition: 0.6s ease;
   }
+  /*
   div {
     min-height: 5vh;
     width: 20vw;
@@ -41,13 +44,20 @@ body {
     margin-top: 10px;
     margin-left: 10px;
 }
+*/
 img {
   display: flex;
   margin: 0 auto;
 }
 .maly {
-  width: 1263px;
+  width: 100vw;
     }
-.search {
-  margin-left: 10px;
+nav {
+  display: flex;
+  width: 100vw;
+}
+
+.bezMezer {
+  margin: 0 auto;
+  padding: 0 !important;
 }
