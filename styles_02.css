@@ -1,5 +1,5 @@
 body, html {
-    font-family: verdana;
+    font-family: Arial;
     margin: 0vw;
     padding: 0;
     width: 100vw;
@@ -49,12 +49,9 @@ img {
   display: flex;
   margin: 0 auto;
 }
-.maly {
-  width: 100vw;
-    }
+
 nav {
   display: flex;
-  width: 100vw;
 }
 
 .bezMezer {
