@@ -57,6 +57,13 @@ img {
   margin: 0 auto;
   padding: 0 !important;
 }
-a {
+h1 {
+    color: rgb(77, 62, 62);
+}
+li.flex-item a {
+    color: bisque;
     text-decoration: none;
+}
+div ul.flex-container li.flex-item {
+    color: black;
 }
