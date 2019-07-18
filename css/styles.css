@@ -57,10 +57,12 @@ img {
   margin: 0 auto;
   padding: 0 !important;
 }
-h1 {
+h1, h2 {
     color: rgb(77, 62, 62);
     padding-top: 10px;
     padding-bottom: 5px;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px rgb(119, 118, 118);
 }
 li.flex-item a {
     color: bisque;
@@ -77,3 +79,16 @@ p {
     width: 100%;
     display: flex;
 }
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
