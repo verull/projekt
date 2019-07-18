@@ -59,6 +59,8 @@ img {
 }
 h1 {
     color: rgb(77, 62, 62);
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 li.flex-item a {
     color: bisque;
@@ -69,5 +71,9 @@ li.flex-item a {
     text-decoration: none;
 }
 p {
-    color: rgb(143, 86, 0)
+    color: rgb(143, 86, 0);
+}
+.kutna {
+    width: 100%;
+    display: flex;
 }
