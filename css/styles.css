@@ -64,6 +64,7 @@ li.flex-item a {
     color: bisque;
     text-decoration: none;
 }
-div ul.flex-container li.flex-item {
+ div a {
     color: black;
+    text-decoration: none;
 }
